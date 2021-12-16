@@ -1,0 +1,90 @@
+body {
+    font-family: 'Source Code Pro', monospace;
+}
+
+header { 
+    margin-right: 0;
+    max-width: 900px;
+    
+}
+
+.introduce-me-img {
+    width: 15rem;
+    border: .5em solid #193155;
+    padding: 0 0;
+    background-color: #193155;
+    margin: 1.2em auto 1.2em 1.5em;
+    
+
+}
+
+.container {
+    padding: 2em;
+}
+.angela-block {
+    display: flex;
+    justify-content: space-around;
+    background-color: #e69900; 
+    width: 10em;
+    text-align: center;
+    font-size: 1.2rem;
+    padding: .3rem;
+    color: black;
+    text-decoration: none;
+    margin: .9em auto 0 1.1em; 
+    float: left;  
+}
+
+.midnight-line {
+    height: .5em; 
+    width: 100%; 
+    background-color: #193155;
+    margin: 0;
+    padding: 0 auto 0 auto;
+    border: 0;
+}
+
+nav {
+    background-color: #CC6633; 
+    text-decoration: none;
+    text-align: center;
+    width: 25em;
+    margin: auto 0 auto auto;
+    display: flex;
+    float: right;
+    justify-content:  space-around;
+    padding: .5rem;
+    font-size: 0.8rem;
+    color: black;
+}
+
+.social-block {
+    background-color: #CC6633; 
+    width: 8em;
+    height: 1.8rem;
+    margin-left: 0;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content:  space-around;
+}
+
+.social-block img {
+	width:   1.1rem;
+	height:  1.1rem;
+    margin-top: .5rem;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    height: 100%; /*temp fix */
+}
+
+
+
