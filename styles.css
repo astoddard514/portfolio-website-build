@@ -9,11 +9,12 @@ Typography
 .hi {
     color: #CC6633;
     padding: 0  0 .5em 0;
+    font-size: 1.5rem; 
     
 }
 
 .I-am {
-    font-size: .65rem;
+    font-size: .85rem; 
     
     
 }
